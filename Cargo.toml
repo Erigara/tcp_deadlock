@@ -1,0 +1,8 @@
+[package]
+name = "tcp_deadlock"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+core_affinity = "0.8.1"
